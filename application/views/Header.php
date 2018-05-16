@@ -1,7 +1,5 @@
 <?php>
-  <style>
-    <?php include 'CSS/main.css'; ?>
-  </style>
+  <link rel="stylesheet" href="CSS/main.css" type="text/css">
   <head>
     <div class="header">
       <a href="#default" class="logo">CompanyLogo</a>
