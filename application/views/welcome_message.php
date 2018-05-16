@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 
-	<?php $this->load->view("Header"); ?>
+	<?php $this->load->view("header"); ?>
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
