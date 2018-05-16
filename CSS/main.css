@@ -1,3 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+.snip1335 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1335 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.snip1335 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  overflow: hidden;
+}
+.snip1335 a {
+  padding: 0.3em 0.8em;
+  backface-visibility: hidden;
+  color: #bfbfbf;
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  position: relative;
+  text-decoration: none;
+}
+.snip1335 a:after {
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  color: #2980b9;
+  content: attr(data-hover);
+  top: 0;
+  line-height: 2em;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.snip1335 li:hover a,
+.snip1335 li.current a {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  color: transparent;
+}
+.snip1335 li:hover a:after,
+.snip1335 li.current a:after {
+  opacity: 1;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+  padding: 50px 0;
+}
+
+
+
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;

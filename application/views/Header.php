@@ -1,12 +1,12 @@
 <?php>
   <link rel="stylesheet" href="CSS/main.css" type="text/css">
   <head>
-    <div class="header">
-      <a href="#default" class="logo">CompanyLogo</a>
-      <div class="header-right">
-        <a class="active" href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-    </div>
+      <ul class="snip1335">
+      <li class="current"><a href="#" data-hover="Home">Home</a></li>
+      <li><a href="#" data-hover="About Us">About Us</a></li>
+      <li><a href="#" data-hover="Blog">Blog</a></li>
+      <li><a href="#" data-hover="Services">Services</a></li>
+      <li><a href="#" data-hover="Products">Products</a></li>
+      <li><a href="#" data-hover="Contact">Contact</a></li>
+    </ul>
   </head>
