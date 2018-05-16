@@ -1,5 +1,5 @@
 <?php>
-<link rel="stylesheet" type="text/css" href="..\css\style.css">.
+<link rel="stylesheet" type="text/css" href="..\css\main.css">.
 <head>
 <div class="header">
   <a href="#default" class="logo">CompanyLogo</a>
